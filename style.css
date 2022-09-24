@@ -1,17 +1,22 @@
 
+.body{
+    height: 100vh;
+    margin: 0;
+}
 .banner{
+    
     height: 100%;
     width: 100% ;
 
 }
 .registrar{
     position: absolute;
-   left: 1140px;
+   right: 0;
 
 }
 .login{
     position: absolute;
-    left: 1070px;
+    right: 120px;
    
 }
 body{
