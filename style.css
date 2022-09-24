@@ -1,47 +1,53 @@
 
-.body{
-    height: 100vh;
-    margin: 0;
-}
-h1{
-    color: white;
-    background: red; /* fundo*/
-    font-size: 140px; /* tamanho do fundo*/
+.banner{
     height: 100%;
-    margin: 0;
-    width: 100%;
-    
-}
+    width: 100% ;
 
-h1{
-    text-align: center
 }
+.registrar{
+    position: fixed;
+   left: 1140px;
 
-h2{
-    width: 100px; /*largura*/
-    height: 30px; /*altura*/
-    display: inline;
-    margin: 100px;
-     
+}
+.login{
+    position: fixed;
+    left: 1070px;
+   
 }
 body{
 
-    background-image: url(https://www.publicdomainpictures.net/pictures/200000/nahled/plain-blue-background.jpg);
-}
-
-#gameplay{
-    color: black;
-    font-size: 30px; /* tamanho do fundo*/
-    height: 100%;
+    background: url(https://img.freepik.com/vetores-gratis/projeto-do-fundo-multicolor_1117-99.jpg?w=360);
+    border: 0;
+    padding: 0;
     margin: 0;
-    width: 100%;
+    
+}
+.botao{
+    font-family: arial;
+    font-size: 14px; /* tamanho do fundo*/
+    text-transform: uppercase; /* sempre maiusculo*/
+    font-weight: 700; /* negrito*/
+    border: none; /* remove bordas*/
+    padding: 10px;
+    cursor: pointer; /* cursos mouse*/
+    text-decoration: none; /* tirar undrline*/
+
+}
+.btn-color{
+    background:#341933;
+     color: #fff;
+     box-shadow: 0 5px 0 #1e111d; /* caixa de tras*/
+
 }
 
-button{
-    font-size: 10px; /* tamanho do fundo*/
-    background-color: red
+.btn-color:houver{
+    background:#1e111d;
+     color:#fff;
+     box-shadow: 0 5px 0 #000000; /* caixa de tras*/
+
 }
+.btn-color:active{
 
-
-
-
+    top: 5px;
+    box-shadow:none
+}
