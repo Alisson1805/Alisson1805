@@ -5,12 +5,12 @@
 
 }
 .registrar{
-    position: fixed;
+    position: absolute;
    left: 1140px;
 
 }
 .login{
-    position: fixed;
+    position: absolute;
     left: 1070px;
    
 }
