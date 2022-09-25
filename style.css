@@ -3,7 +3,7 @@ iframe{
 }
 main{
     min-width: 320px ;
-    max-width: 1080px;
+    max-width: 1920px;
 }
 body{
     background-color: #3A01DF;
@@ -20,6 +20,8 @@ body{
     
     height: 100%;
     width: 100% ;
+    min-width: 320px ;
+    max-width: 1920px;
 
 }
 .registrar{
