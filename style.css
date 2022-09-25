@@ -1,4 +1,17 @@
-
+iframe{
+    width: 100%;
+}
+main{
+    min-width: 320px ;
+    max-width: 1080px;
+}
+body{
+    background-color: #3A01DF;
+}
+*{
+    margin: 0px;
+    padding: opx;
+}
 .body{
     height: 100vh;
     margin: 0;
@@ -10,30 +23,22 @@
 
 }
 .registrar{
-    position: absolute;
-   right: 0;
-
-}
-.login{
-    position: absolute;
-    right: 120px;
-   
-}
-body{
-
-    background: url(https://img.freepik.com/vetores-gratis/projeto-do-fundo-multicolor_1117-99.jpg?w=360);
-    border: 0;
-    padding: 0;
-    margin: 0;
+    position: fixed;
+  
+ 
+ }
+ .login{
+    position: fixed;
+     left: 75px;
     
-}
+ }
 .botao{
     font-family: arial;
-    font-size: 14px; /* tamanho do fundo*/
+    font-size: 8px; /* tamanho do fundo*/
     text-transform: uppercase; /* sempre maiusculo*/
-    font-weight: 700; /* negrito*/
+    font-weight: 800; /* negrito tamanho letra*/
     border: none; /* remove bordas*/
-    padding: 10px;
+    padding: 5px;
     cursor: pointer; /* cursos mouse*/
     text-decoration: none; /* tirar undrline*/
 
