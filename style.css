@@ -31,16 +31,16 @@ body{
  }
  .login{
     position: fixed;
-     left: 75px;
+     left: 100px;
     
  }
 .botao{
     font-family: arial;
-    font-size: 8px; /* tamanho do fundo*/
+    font-size: 10px; /* tamanho do fundo*/
     text-transform: uppercase; /* sempre maiusculo*/
     font-weight: 800; /* negrito tamanho letra*/
     border: none; /* remove bordas*/
-    padding: 5px;
+    padding: 10px;
     cursor: pointer; /* cursos mouse*/
     text-decoration: none; /* tirar undrline*/
 
